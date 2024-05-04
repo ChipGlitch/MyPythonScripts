@@ -26,7 +26,7 @@ folder_path = ''
 output_file = 'all_code_concatenated.txt'
 
 # Specify the file extensions
-code_extensions = ['.py']
+code_extensions = ['.py', '.java']
 
 # Gather and concatenate the files
 files = gather_files(folder_path, code_extensions)
